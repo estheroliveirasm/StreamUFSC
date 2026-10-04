@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AddMovieWindow</class>
+ <widget class="QDialog" name="AddMovieWindow">
+  <property name="geometry">
+   <rect><x>0</x><y>0</y><width>360</width><height>460</height></rect>
+  </property>
+  <property name="windowTitle"><string>Adicionar Filme ou Série</string></property>
+  <layout class="QVBoxLayout" name="layoutPrincipal">
+
+   <item>
+    <layout class="QVBoxLayout" name="layoutPoster">
+     <item>
+      <widget class="QLabel" name="posterPreview">
+       <property name="minimumSize"><size><width>100</width><height>140</height></size></property>
+       <property name="maximumSize"><size><width>100</width><height>140</height></size></property>
+       <property name="alignment"><set>Qt::AlignCenter</set></property>
+       <property name="text"><string>Sem
+pôster</string></property>
+       <property name="styleSheet"><string>border: 2px dashed #F9A825; background-color: white;</string></property>
+      </widget>
+     </item>
+     <item alignment="Qt::AlignHCenter">
+      <widget class="QPushButton" name="posterBtn">
+       <property name="text"><string>Escolher Pôster...</string></property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+
+   <item>
+    <layout class="QFormLayout" name="layoutFormulario">
+     <item row="0" column="0"><widget class="QLabel" name="label1"><property name="text"><string>Título:</string></property></widget></item>
+     <item row="0" column="1"><widget class="QLineEdit" name="tituloEdit"><property name="placeholderText"><string>Ex: Duna</string></property></widget></item>
+
+     <item row="1" column="0"><widget class="QLabel" name="label2"><property name="text"><string>Gênero:</string></property></widget></item>
+     <item row="1" column="1"><widget class="QComboBox" name="generoCombo"><property name="editable"><bool>true</bool></property></widget></item>
+
+     <item row="2" column="0"><widget class="QLabel" name="label3"><property name="text"><string>Ano:</string></property></widget></item>
+     <item row="2" column="1">
+      <widget class="QSpinBox" name="anoSpin">
+       <property name="minimum"><number>1900</number></property>
+       <property name="maximum"><number>2100</number></property>
+       <property name="value"><number>2026</number></property>
+      </widget>
+     </item>
+
+     <item row="3" column="0"><widget class="QLabel" name="label4"><property name="text"><string>Tipo:</string></property></widget></item>
+     <item row="3" column="1"><widget class="QComboBox" name="tipoCombo"/></item>
+
+     <item row="4" column="0"><widget class="QLabel" name="label5"><property name="text"><string>Status inicial:</string></property></widget></item>
+     <item row="4" column="1"><widget class="QComboBox" name="statusCombo"/></item>
+    </layout>
+   </item>
+
+   <item>
+    <spacer name="spacerFinal">
+     <property name="orientation"><enum>Qt::Vertical</enum></property>
+     <property name="sizeHint"><size><width>20</width><height>20</height></size></property>
+    </spacer>
+   </item>
+
+   <item>
+    <layout class="QHBoxLayout" name="layoutBotoes">
+     <item>
+      <widget class="QPushButton" name="cancelarBtn">
+       <property name="text"><string>Cancelar</string></property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="salvarBtn">
+       <property name="text"><string>Salvar</string></property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

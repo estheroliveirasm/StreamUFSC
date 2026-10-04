@@ -1,0 +1,39 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/me.jpg</file>
+        <file>images/posters/Gossip_Girl.jpg</file>
+        <file>images/posters/Harry-Potter.jpg</file>
+        <file>images/posters/High_School_Musical.jpg</file>
+        <file>images/posters/IT.jpg</file>
+        <file>images/posters/Maleficent.jpg</file>
+        <file>images/posters/Mamma_Mia.jpg</file>
+        <file>images/posters/Mean_Girls.jpg</file>
+        <file>images/posters/Narnia.jpg</file>
+        <file>images/posters/Nothing_Hill.jpg</file>
+        <file>images/posters/Pirates_of_the_Caribbean.jpg</file>
+        <file>images/posters/Pretty_Woman.jpg</file>
+        <file>images/posters/Scooby-Doo.jpg</file>
+        <file>images/posters/Scream.jpg</file>
+        <file>images/posters/Stranger_Things.jpg</file>
+        <file>images/posters/The_Bigbang_Theory.jpg</file>
+        <file>images/posters/The_Parent_Trap.jpg</file>
+        <file>images/posters/The_hunger_games.jpg</file>
+        <file>images/posters/Twilight.jpg</file>
+        <file>images/posters/Wednesday.jpg</file>
+        <file>images/posters/_3.jpg</file>
+        <file>images/posters/Conrad, Belly e Jeremiah.jpg</file>
+        <file>images/posters/download.jpg</file>
+        <file>images/posters/download (1).jpg</file>
+        <file>images/posters/download (2).jpg</file>
+        <file>images/posters/download (3).jpg</file>
+        <file>images/posters/download (4).jpg</file>
+        <file>images/posters/download (5).jpg</file>
+        <file>images/posters/download (6).jpg</file>
+        <file>images/posters/download (7).jpg</file>
+        <file>images/posters/La La Land - 2016.jpg</file>
+        <file>images/posters/Paty'sDreams.jpg</file>
+        <file>images/posters/Teen Wolf.jpg</file>
+        <file>images/posters/The Devil Wears Prada (2006).jpg</file>
+        <file>images/posters/the vampire diaries.jpg</file>
+    </qresource>
+</RCC>

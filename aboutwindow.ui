@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AboutWindow</class>
+ <widget class="QDialog" name="AboutWindow">
+  <property name="geometry">
+   <rect><x>0</x><y>0</y><width>340</width><height>390</height></rect>
+  </property>
+  <property name="windowTitle"><string>Sobre o Desenvolvedor</string></property>
+  <property name="styleSheet"><string>background-color: #FFFDE7;</string></property>
+  <layout class="QVBoxLayout" name="layoutPrincipal">
+   <property name="alignment"><set>Qt::AlignHCenter</set></property>
+
+   <item alignment="Qt::AlignHCenter">
+    <widget class="QLabel" name="fotoLabel">
+     <property name="minimumSize"><size><width>150</width><height>150</height></size></property>
+     <property name="maximumSize"><size><width>150</width><height>150</height></size></property>
+     <property name="alignment"><set>Qt::AlignCenter</set></property>
+     <property name="scaledContents"><bool>true</bool></property>
+     <property name="styleSheet"><string>border-radius: 75px; border: 3px solid #F9A825;</string></property>
+    </widget>
+   </item>
+
+   <item alignment="Qt::AlignHCenter">
+    <widget class="QLabel" name="nomeLabel">
+     <property name="text"><string>Esther de Oliveira</string></property>
+     <property name="styleSheet"><string>font-size: 18px; font-weight: bold; color: #5D4037;</string></property>
+     <property name="alignment"><set>Qt::AlignCenter</set></property>
+    </widget>
+   </item>
+
+   <item>
+    <widget class="Line" name="linha">
+     <property name="orientation"><enum>Qt::Horizontal</enum></property>
+     <property name="styleSheet"><string>color: #F9A825;</string></property>
+    </widget>
+   </item>
+
+   <item>
+    <widget class="QLabel" name="sistemaLabel">
+     <property name="text">
+      <string>StreamUFSC
+
+Trabalho final (T2) da disciplina de Linguagem de Programação 2.
+Universidade Federal de Santa Catarina - Campus Araranguá.
+
+Sistema de avaliação de filmes e séries desenvolvido em C++ com a biblioteca Qt.</string>
+     </property>
+     <property name="wordWrap"><bool>true</bool></property>
+     <property name="alignment"><set>Qt::AlignCenter</set></property>
+     <property name="styleSheet"><string>font-size: 13px; color: #5D4037;</string></property>
+    </widget>
+   </item>
+
+   <item>
+    <spacer name="spacerFinal">
+     <property name="orientation"><enum>Qt::Vertical</enum></property>
+     <property name="sizeHint"><size><width>20</width><height>20</height></size></property>
+    </spacer>
+   </item>
+
+   <item>
+    <widget class="QPushButton" name="fecharBtn">
+     <property name="text"><string>Fechar</string></property>
+    </widget>
+   </item>
+
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

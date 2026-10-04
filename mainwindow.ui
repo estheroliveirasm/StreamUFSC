@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect><x>0</x><y>0</y><width>1100</width><height>700</height></rect>
+  </property>
+  <property name="windowTitle">
+   <string>StreamUFSC - Minhas Avaliações de Filmes e Séries</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="layoutPrincipal">
+
+    <item>
+     <layout class="QHBoxLayout" name="layoutCabecalho">
+      <item>
+       <widget class="QPushButton" name="btnVoltar">
+        <property name="text"><string>←</string></property>
+        <property name="toolTip"><string>Voltar à tela inicial</string></property>
+        <property name="minimumSize"><size><width>42</width><height>38</height></size></property>
+        <property name="maximumSize"><size><width>42</width><height>38</height></size></property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="tituloLabel">
+        <property name="text"><string>🎬 StreamUFSC</string></property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="spacerCabecalho">
+        <property name="orientation"><enum>Qt::Horizontal</enum></property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="pesquisaEdit">
+        <property name="minimumWidth"><number>220</number></property>
+        <property name="placeholderText"><string>Pesquisar por título...</string></property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btnAdicionar">
+        <property name="text"><string>➕ Adicionar</string></property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btnSobre">
+        <property name="text"><string>ℹ Sobre</string></property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+
+    <item>
+     <layout class="QHBoxLayout" name="layoutFiltros">
+      <item>
+       <widget class="QPushButton" name="btnTodos">
+        <property name="text"><string>Todos</string></property>
+        <property name="checkable"><bool>true</bool></property>
+        <property name="checked"><bool>true</bool></property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btnFavoritos">
+        <property name="text"><string>♥ Favoritos</string></property>
+        <property name="checkable"><bool>true</bool></property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btnMinhaLista">
+        <property name="text"><string>📌 Minha Lista</string></property>
+        <property name="checkable"><bool>true</bool></property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btnAssistindo">
+        <property name="text"><string>▶ Assistindo</string></property>
+        <property name="checkable"><bool>true</bool></property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btnAssistidos">
+        <property name="text"><string>✔ Assistidos</string></property>
+        <property name="checkable"><bool>true</bool></property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btnPopulares">
+        <property name="text"><string>🎬 Catálogo</string></property>
+        <property name="checkable"><bool>true</bool></property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="spacerFiltros">
+        <property name="orientation"><enum>Qt::Horizontal</enum></property>
+       </spacer>
+      </item>
+     </layout>
+    </item>
+
+    <item>
+     <widget class="QScrollArea" name="scrollArea">
+      <property name="widgetResizable"><bool>true</bool></property>
+      <widget class="QWidget" name="gradeContainer">
+       <property name="geometry">
+        <rect><x>0</x><y>0</y><width>1060</width><height>560</height></rect>
+       </property>
+       <layout class="QGridLayout" name="gradeLayout"/>
+      </widget>
+     </widget>
+    </item>
+
+    <item>
+     <widget class="QLabel" name="statsLabel">
+      <property name="text"><string>Total cadastrados: 0</string></property>
+     </widget>
+    </item>
+
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
